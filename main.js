@@ -33,7 +33,7 @@ class Cell {
         this.i = x;
         this.j = y;
         this.w = w;
-        this.mine = (Math.random() < 0.10);
+        this.mine = (Math.random() > 0.10);
         this.revealed = false;
         this.state = 0;
         this.grid = grid;
